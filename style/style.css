@@ -62,7 +62,7 @@ input[type="search"],input[type="submit"]{-webkit-appearance: none;outline:none;
 /*通用代码*/
 .wrapper{max-width:750px;margin:0 auto;position:relative;}
 .part{position:relative;}
-.part2{height:8rem;background:url(../images/yysj.jpg) no-repeat;background-size:100% auto;}
+.part2{height:8rem;background:url(../images/yysj.jpg) no-repeat;background-size:100% auto;padding-bottom: .4rem}
 /*.part3{height:6.0rem;background:url(../images/cxld.jpg) no-repeat;background-size:100% auto;}*/
 .part4{height:3.5rem;background:url(../images/jczx.jpg) no-repeat;background-size:100% auto;}
 .part5{background:url(../images/cxpz.jpg) no-repeat;background-size:100% auto;}
@@ -111,7 +111,7 @@ input[type="search"],input[type="submit"]{-webkit-appearance: none;outline:none;
 	height: 7.41rem;
 	background: url(../images/cxld.jpg) no-repeat;
 	background-size: 100% auto;
-	margin-top: 1.5rem;
+	margin-top: 1.3rem;
 }
 .part3 .wrapper {
 	top: 0rem;
@@ -503,7 +503,7 @@ video{
 	background: black;
 	position: relative;
 	margin-bottom: 0.1rem;
-	padding-top: 1rem;
+	padding-top: .8rem;
 }
 
 .menu li {
