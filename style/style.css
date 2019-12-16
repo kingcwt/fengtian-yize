@@ -111,7 +111,7 @@ input[type="search"],input[type="submit"]{-webkit-appearance: none;outline:none;
 	height: 7.41rem;
 	background: url(../images/cxld.jpg) no-repeat;
 	background-size: 100% auto;
-	/*margin-top: .5rem;*/
+	margin-top: 2rem;
 }
 .part3 .wrapper {
 	top: 0rem;
@@ -674,6 +674,13 @@ i, em {
 	padding-right: .25rem;
 	box-sizing: border-box;
 	padding-top: .12rem;
+}
+video{
+	height: 4.77rem;
+	width: 100%;
+	background: #060606;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 }
 
 
