@@ -187,11 +187,10 @@ function getQueryString(name) {
 
 var Putm_source=getQueryString('utm_source'),
     Putm_medium=getQueryString('utm_medium'),
-    Pid=getQueryString('id');
+    Pid=getQueryString('id')||new Date().getTime();
 
 function dengingLogin(userObj) {
 
-    $.post('//landingpage.xiaoyun.com/landings/push/landpage/entry/1174', {utm_source:Putm_source,utm_medium:Putm_medium,id:Pid,flnm: userObj.name+'('+userObj.sexText+')', mob: userObj.phone ,tags: ['丰田-奕泽IZOA ',userObj.provText+'-'+userObj.cityText+'-',userObj.dealer]});
 
     var body ="mediaLeadId="+userObj.mediaLeadId+"&mediaLeadType="+userObj.mediaLeadType+"&channelKeyId=" +
         userObj.channelKeyId+
@@ -209,6 +208,9 @@ function dengingLogin(userObj) {
                     /*手机号*/userObj.phone, /*称谓*/userObj.sex, /*省*/userObj.provId,
                     /*市*/userObj.cityId, /*经销商*/userObj.dealerId, /*车型*/userObj.chexingId,
                     /*购车时间*/userObj.levelId, /**/'奕泽IZOA']);
+                $.post('//landingpage.xiaoyun.com/landings/push/landpage/entry/1174', {utm_source:Putm_source,utm_medium:Putm_medium,id:Pid,flnm: userObj.name+'('+userObj.sexText+')', mob: userObj.phone ,tags: ['丰田-奕泽IZOA ',userObj.provText+'-'+userObj.cityText+'-',userObj.dealer]});
+                window.ga&&window.ga('send','event',`${Pid}`,'submit_form',1);
+
                 // mt_tracker.track(_mtq);
                 // $.fn.xy(
                 //     {
