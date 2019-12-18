@@ -65,8 +65,8 @@ input[type="search"],input[type="submit"]{-webkit-appearance: none;outline:none;
 .part2{height:8rem;background:url(../images/yysj.jpg) no-repeat;background-size:100% auto;padding-bottom: .4rem}
 /*.part3{height:6.0rem;background:url(../images/cxld.jpg) no-repeat;background-size:100% auto;}*/
 .part4{height:3.5rem;background:url(../images/jczx.jpg) no-repeat;background-size:100% auto;}
-.part5{background:url(../images/cxpz.jpg) no-repeat;background-size:100% auto;}
-.part6{height:5.1rem;background:url(../images/jcsp.jpg) no-repeat;background-size:100% auto;}
+.part5{background:url(../images/cxpz.jpg) no-repeat;background-size:100% auto;padding-top: .7rem}
+.part6{height:5.1rem;background:url(../images/jcsp.jpg) no-repeat;background-size:100% auto;padding-top: 1.4rem}
 /*通用代码*/
 
 
@@ -108,7 +108,7 @@ input[type="search"],input[type="submit"]{-webkit-appearance: none;outline:none;
 /**/
 
 .part3 {
-	height: 7.41rem;
+	height: 7.6rem;
 	background: url(../images/cxld.jpg) no-repeat;
 	background-size: 100% auto;
 	margin-top: 1.3rem;
